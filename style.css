@@ -1,0 +1,54 @@
+#container{
+  height: 450px;
+  width: 650px;
+  margin: 20px auto;
+  position:relative;
+  border:solid black;
+}
+
+#left{
+  height: 450px;
+  width:100px;
+  position:absolute;
+  left:0px;
+  top:0px;
+}
+
+#right{
+  height: 450px;
+  width:100px;
+  position:absolute;
+  right:0px;
+  top:0px;
+}
+
+#img{
+  height: 450px;
+  width: 650px;
+}
+
+#arrow_left{
+  height: 50px;
+  width:50px;
+  left:8px;
+  top:40%;
+  position:absolute;
+}
+
+#arrow_right{
+  height: 50px;
+  width:50px;
+  right:8px;
+  top:40%;
+  position:absolute;
+}
+
+#header{
+  height: 50px;
+  width: 100%;
+  border-bottom: solid black;
+}
+
+#header h1{
+  text-align: center;
+}
